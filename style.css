@@ -1,5 +1,28 @@
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.topimage {
+    height: auto;
+    width: 100px;
+}
+
+button{
+    width: 70px;
+    flex: none;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    height: 200px;
+}
+
+.upper {
+    display: flex;
 }
 
 .header {
