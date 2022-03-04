@@ -4,6 +4,42 @@ body {
     flex-direction: column;
 }
 
+.subimage {
+    border: #3882FC;
+    border-style: solid;
+    border-radius: 6px;
+}
+
+.random {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1f2937;
+}
+
+.centerimages {
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+    margin: 0px 150px;
+}
+
+.imagetext {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 5px;
+}
+
+.uppermiddle {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    justify-content: center;
+    gap: 50px;
+}
+
 .awesome {
     font-size: 48px;
     font-weight: extra-bold;
@@ -45,6 +81,7 @@ button{
     background-color: #1F2937;
     align-items: center;
     padding: 20px 30px;
+    margin-bottom: 60px;
 }
 
 .logo,
