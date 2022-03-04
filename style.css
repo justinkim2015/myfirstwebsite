@@ -17,22 +17,23 @@ body {
 
 .topimage {
     height: auto;
-    width: 100px;
+    width: 800px;
+    margin: 30px;
 }
 
 button{
-    width: 70px;
     background-color: #3882FC;
-    border-radius: 8px;
+    border-radius: 6px;
     color: #F9FAF8;
     padding: 5px;
+    width: 80px;
+    font-weight: bold;
 }
 
 .text {
     display: flex;
     flex-direction: column;
-    flex: 1;
-    height: 200px;
+    height: 300px;
     color: #e5e7eb;
     justify-content: center;
     gap: 5px;
@@ -43,7 +44,7 @@ button{
     display: flex;
     background-color: #1F2937;
     align-items: center;
-    padding: 0px 30px;
+    padding: 20px 30px;
 }
 
 .logo,
@@ -82,6 +83,5 @@ a {
 }
 
 img {
-    height: auto;
-    max-width: 100px;
+    width: 100%;
 }
