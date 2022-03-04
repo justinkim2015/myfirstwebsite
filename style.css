@@ -4,6 +4,38 @@ body {
     flex-direction: column;
 }
 
+
+.bottom {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882FC;
+}
+
+.speaker {
+    margin-left: auto;
+    padding-right: 50px;
+    font-weight: bold;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100px;
+    color: #1f2937;
+}
+
+.lowermiddle {
+    display: flex;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    margin-top: 50px;
+    padding: 0px 50px;
+    flex-direction: column;
+}
+
 .subimage {
     border: #3882FC;
     border-style: solid;
