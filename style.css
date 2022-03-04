@@ -66,12 +66,6 @@ body {
     flex-direction: column;
 }
 
-.subimage {
-    border: #3882FC;
-    border-style: solid;
-    border-radius: 6px;
-}
-
 .random {
     display: flex;
     justify-content: center;
@@ -192,4 +186,7 @@ a {
 
 img {
     width: 100%;
+    border: #3882FC;
+    border-style: solid;
+    border-radius: 6px;
 }
