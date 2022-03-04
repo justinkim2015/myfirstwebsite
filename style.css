@@ -40,7 +40,7 @@ body {
     border-style: solid;
     border-radius: 5px;
     color: white;
-    gap: 10px;
+    gap: 30px;
 }
 
 .speaker {
@@ -64,6 +64,7 @@ body {
     margin-top: 50px;
     padding: 50px 50px;
     flex-direction: column;
+    gap: 15px;
 }
 
 .random {
@@ -139,7 +140,7 @@ button {
     flex-direction: column;
     color: #e5e7eb;
     justify-content: center;
-    gap: 5px;
+    gap: 15px;
     margin: 50px;
 }
 
@@ -151,26 +152,30 @@ button {
     margin-bottom: 60px;
 }
 
-.logo,
-.links {
-    margin: 0px 50px;
+.links{
+    margin: 0px 60px;
+}
+
+.logo{
+    margin: 0px 80px;
 }
 
 .header {
     display: flex;
     align-items: center;
     background-color: #1F2937;
-    padding: 10px 30px;
+    padding: 10px 0px;
 }
 
 .links {
     margin-left: auto;
-    gap: 10px;
+    gap: 15px;
 }
 
 .logo {
     font-size: 24px;
     color: #F9FAF8;
+    padding-top: 10px;
 }
 
 ul {
@@ -183,7 +188,7 @@ ul {
 a {
     text-decoration: none;
     color: #e5e7eb;
-    font-size: 18px;
+    font-size: 14px;
 }
 
 img {
